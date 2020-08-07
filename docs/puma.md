@@ -6,6 +6,9 @@
 puma -C ./puma.conf.rb
 ```
 
-```ruby
+## `puma.conf.rb`
 
+
+```ruby
+stdout_redirect '/home/isucon/puma.out', '/home/isucon/puma.err', true
 ```
