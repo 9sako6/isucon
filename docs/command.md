@@ -4,6 +4,8 @@
 
 ```bash
 ssh-keygen -t ed25519
+# oneline
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N '' > /dev/null && cat ~/.ssh/id_ed25519.pub
 ```
 
 
